@@ -1,6 +1,10 @@
 //Main stylesheets
+@import 'style/reset.scss';
 @import 'style/flex-grid.scss';
 @import 'style/App.scss';
+@import 'style/typography';
+@import 'style/animations.scss';
+@import 'style/theme.scss';
 
 //Containers
 @import 'style/containers/home.scss';

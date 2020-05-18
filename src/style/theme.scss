@@ -1,0 +1,58 @@
+$background-color-dark: #292A32;
+$background-color-light: #FBFAF8;
+$complimentary-color-dark: #393B43;
+$complimentary-color-light: #FEFFFF;
+$blue: #0085FF;
+
+body {
+
+    background-color: $background-color-light;
+    color: $background-color-dark;
+
+}
+
+body.transition {
+
+    background-color: $background-color-light;
+    color: $background-color-dark;
+    transition: all .2s ease-in-out;
+
+}
+
+body.dark-mode {
+
+    background-color: $background-color-dark;
+    color: $background-color-light;
+    transition: all .2s ease-in-out;
+
+}
+
+button {
+
+    font-size: 1.2rem;
+    background-color: $complimentary-color-dark;
+    color: $background-color-light;
+    padding: 1rem 1.2rem;
+    border-radius: 0.5rem;
+    border: 0;
+
+    @media (max-width: $mobile) {
+
+        font-size: 1rem;
+        padding: 0.6rem 0.8rem;
+
+    }
+
+    &:focus {
+
+        outline: 0;
+
+    }
+}
+
+button.dark-mode {
+
+    background-color: $background-color-light;
+    color: $complimentary-color-dark;
+    
+}
