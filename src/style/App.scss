@@ -1,0 +1,28 @@
+//Breakpoints
+$desktop-big: 1920px;
+$desktop-small: 1281px;
+$laptop: 1025px;
+$tablet: 768px;
+$mobile: 480px;
+
+.App {
+
+    width: 100%;
+
+        .inner {
+
+            width: 70%;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+    
+            // &:nth-child(odd){
+
+            //     background-color: $grey;
+                
+            // }
+    
+        }
+
+}
