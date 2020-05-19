@@ -81,6 +81,19 @@ h2 {
 
 }
 
+h3 {
+
+    font-size: 1.8rem;
+    font-family: 'bold';
+
+    @media (max-width: $mobile) {
+
+        font-size: 1.4rem;
+
+    }
+
+}
+
 .subtitle {
 
     font-size: 2.2rem;
@@ -120,5 +133,37 @@ h2 {
     font-size: 1.2rem;
     line-height: 2.2rem;
     font-family: 'light';
+
+}
+
+.case {
+
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-family: 'light';
+
+}
+
+.case-text {
+
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: 'light';
+    margin: 0.4rem 0 1.2rem 0;
+    
+}
+
+.github{
+
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 1.2rem;
+
+}
+
+.live {
+
+    font-size: 1.2rem;
+    font-style: italic;
 
 }

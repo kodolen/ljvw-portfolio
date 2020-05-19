@@ -59,12 +59,25 @@ button.dark-mode {
 
 .about-container {
 
-    background-color: white;
+    background-color: $blue;
+    color: white;
 
 }
 
 .about-container.dark-mode {
 
     background-color: $complimentary-color-dark;
+
+}
+
+.cases-bg {
+
+    background-color: white;
+
+}
+
+.cases-bg.dark-mode {
+
+    background-color: $background-color-dark;
 
 }

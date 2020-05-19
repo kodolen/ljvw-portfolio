@@ -1,0 +1,57 @@
+.cases-title {
+
+    margin-top: 8rem;
+
+}
+
+.cases-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+    
+    .case {
+
+        width: 30%;
+        height: auto;
+        margin: 2rem 0;
+
+        @media (max-width: $tablet) {
+
+            width: 47%;
+    
+        }
+
+        @media (max-width: $mobile) {
+
+            width: 100%;
+    
+        }
+
+        .case-preview {
+
+            width: 100%;
+            height: 20rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .case-content {
+
+            padding: 1.2rem 0 0 0;
+
+        }
+
+    }
+
+}
+
+.cases-bg {
+
+    background-color: white;
+
+}
