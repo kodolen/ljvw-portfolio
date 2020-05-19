@@ -1,0 +1,50 @@
+.about-container {
+
+    padding: 8rem 0;
+
+    @media (max-width: $tablet) {
+
+        padding: 4rem 0;
+
+        .content-wrapper {
+
+            padding-top: 3rem;
+
+        }
+
+    }
+
+    @media (max-width: $mobile) {
+
+        padding: 2rem 0;
+
+        .content-wrapper {
+
+            padding-top: 2rem;
+
+        }
+
+
+    }
+
+    .prog-icon-wrapper {
+
+        display: flex;
+        flex-direction: row;
+        padding: 0.8rem 0 2rem 0;
+
+        .devicon-git-plain,
+        .devicon-sass-original,
+        .devicon-react-original,
+        .devicon-javascript-plain {
+    
+            margin-right: 1.2rem;
+            color: $blue;
+            font-size: 3.2rem;
+            width: 3.2rem;
+    
+        }
+
+    }
+
+}

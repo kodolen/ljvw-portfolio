@@ -17,13 +17,16 @@ class DarkModeToggle extends Component {
 
   handleModeChange() {
     let toggle = document.getElementById("dark-mode-toggle");
+    let contentWhite = document.getElementById('content-white')
     if(!this.state.darkMode) {
       document.body.classList.add('dark-mode');
       toggle.classList.add('dark-mode');
+      contentWhite.classList.add('dark-mode');
     } else {
       document.body.classList.remove('dark-mode');
       document.body.classList.add('transition')
       toggle.classList.remove('dark-mode');
+      contentWhite.classList.remove('dark-mode');
     }
 
     this.setState({

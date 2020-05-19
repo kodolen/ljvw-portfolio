@@ -56,3 +56,15 @@ button.dark-mode {
     color: $complimentary-color-dark;
     
 }
+
+.about-container {
+
+    background-color: white;
+
+}
+
+.about-container.dark-mode {
+
+    background-color: $complimentary-color-dark;
+
+}
