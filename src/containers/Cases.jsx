@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 import ljvwLight from '../assets/ljvw.png';
 import redkiwi from '../assets/redkiwi.png';
 import gl from '../assets/gl.jpg'
+import { Waypoint } from "react-waypoint";
 
 class Home extends Component {
 
     render() {
         return (
             <div className="inner cases-bg" id="cases-bg">
+                <Waypoint bottomOffset="400px" onEnter={() => {
+                    let currentElement = document.getElementById("cases-bg");
+                    currentElement.classList.add('show');
+                }}
+                />
                 <div className="row">
                     <div className="col-xs-12 col-md-6 off-md-1 cases-title">
                         <h2>Cases</h2>
@@ -22,7 +28,7 @@ class Home extends Component {
 
                             <div className="case">
                                 <div className="case-preview" style={{ backgroundImage: `url(${redkiwi})` }}>
-                            
+
                                 </div>
                                 <div className="case-content">
                                     <span className="case">Case</span>

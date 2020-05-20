@@ -9,3 +9,55 @@
       transform: translateY(-15px);
     }
   }
+
+  @keyframes blurOut {
+
+    0% {
+
+      opacity: 0;
+      filter: blur(0.6rem);
+
+    }
+
+    100% {
+
+      opacity: 1;
+      filter: blur(0);
+
+    }
+
+  }
+
+  @keyframes opacity {
+
+    0% {
+
+      opacity: 0;
+
+    }
+
+    100% {
+
+      opacity: 1;
+
+    }
+
+  }
+
+  @keyframes botToTop {
+
+    0% {
+
+      opacity: 0;
+      margin-left: -2rem;
+
+    }
+
+    100% {
+
+      opacity: 1;
+      margin-left: 0;
+
+    }
+
+  }

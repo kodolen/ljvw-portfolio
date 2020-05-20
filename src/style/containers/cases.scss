@@ -4,54 +4,91 @@
 
 }
 
-.cases-container {
+.cases-bg {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 6rem 0;
+    background-color: white;
+
+    .cases-container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 6rem 0;
+        opacity: 0;
+        
+        .case {
     
-    .case {
-
-        width: 30%;
-        height: auto;
-        margin: 2rem 0;
-
-        @media (max-width: $tablet) {
-
-            width: 47%;
+            width: 30%;
+            height: auto;
+            margin: 2rem 0;
+    
+            @media (max-width: $tablet) {
+    
+                width: 47%;
+        
+            }
+    
+            @media (max-width: $mobile) {
+    
+                width: 100%;
+        
+            }
+    
+            .case-preview {
+    
+                width: 100%;
+                height: 20rem;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+    
+            }
+    
+            .case-content {
+    
+                padding: 1.2rem 0 0 0;
+    
+            }
     
         }
-
-        @media (max-width: $mobile) {
-
-            width: 100%;
     
+    }
+
+    h2,
+    .flat-text,
+    .github {
+
+        opacity: 0;
+
+    }
+
+    &.show {
+
+        h2 {
+
+            animation: 600ms botToTop forwards;
+
         }
 
-        .case-preview {
+        .flat-text {
 
-            width: 100%;
-            height: 20rem;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+            animation: 600ms opacity 600ms forwards;
 
         }
 
-        .case-content {
+        .github {
 
-            padding: 1.2rem 0 0 0;
+            animation: 600ms opacity 1200ms forwards;
+
+        }
+
+        .cases-container {
+
+            animation: 600ms opacity 1800ms forwards;
 
         }
 
     }
-
-}
-
-.cases-bg {
-
-    background-color: white;
 
 }
