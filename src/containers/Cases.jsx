@@ -6,6 +6,7 @@ import UnkownEra from '../assets/unknownera.png';
 import cog from '../assets/cog.png';
 import dep from '../assets/dep.jpg';
 import { Waypoint } from "react-waypoint";
+import Tilt from 'react-parallax-tilt';
 
 class Home extends Component {
 
@@ -30,9 +31,11 @@ class Home extends Component {
                         <div className="cases-container">
 
                             <div className="case">
-                                <div className="case-preview" style={{ backgroundImage: `url(${redkiwi})` }}>
+                                <Tilt>
+                                    <div className="case-preview" style={{ backgroundImage: `url(${redkiwi})` }}>
 
-                                </div>
+                                    </div>
+                                </Tilt>
                                 <div className="case-content">
                                     <span className="case">Internship</span>
                                     <h3>Redkiwi</h3>
@@ -42,7 +45,10 @@ class Home extends Component {
                             </div>
 
                             <div className="case">
-                                <div className="case-preview" style={{ backgroundImage: `url(${ljvwLight})` }}></div>
+                                <Tilt>
+                                    <div className="case-preview" style={{ backgroundImage: `url(${ljvwLight})` }}></div>
+                                </Tilt>
+
                                 <div className="case-content">
                                     <span className="case">Freelance</span>
                                     <h3>LJVW Development <span className='dev-light'>(Still in development)</span></h3>
@@ -52,7 +58,10 @@ class Home extends Component {
                             </div>
 
                             <div className="case">
-                                <div className="case-preview" style={{ backgroundImage: `url(${gl})` }}></div>
+                                <Tilt>
+                                    <div className="case-preview" style={{ backgroundImage: `url(${gl})` }}></div>
+                                </Tilt>
+
                                 <div className="case-content">
                                     <span className="case">School project</span>
                                     <h3>Guiding Light</h3>
@@ -62,7 +71,10 @@ class Home extends Component {
                             </div>
 
                             <div className="case">
-                                <div className="case-preview" style={{ backgroundImage: `url(${cog})` }}></div>
+                                <Tilt>
+                                    <div className="case-preview" style={{ backgroundImage: `url(${cog})` }}></div>
+                                </Tilt>
+
                                 <div className="case-content">
                                     <span className="case">School project</span>
                                     <h3>Corner Office Games</h3>
@@ -72,7 +84,11 @@ class Home extends Component {
                             </div>
 
                             <div className="case">
-                                <div className="case-preview" style={{ backgroundImage: `url(${dep})` }}></div>
+
+                                <Tilt>
+                                    <div className="case-preview" style={{ backgroundImage: `url(${dep})` }}></div>
+                                </Tilt>
+
                                 <div className="case-content">
                                     <span className="case">School project</span>
                                     <h3>DEP Critics</h3>
@@ -82,7 +98,10 @@ class Home extends Component {
                             </div>
 
                             <div className="case">
-                                <div className="case-preview" style={{ backgroundImage: `url(${UnkownEra})` }}></div>
+                                <Tilt>
+                                    <div className="case-preview" style={{ backgroundImage: `url(${UnkownEra})` }}></div>
+                                </Tilt>
+
                                 <div className="case-content">
                                     <span className="case">School project</span>
                                     <h3>Unknown Era</h3>

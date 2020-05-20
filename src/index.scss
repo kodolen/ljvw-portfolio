@@ -12,3 +12,7 @@
 @import 'style/containers/cases.scss';
 
 //Components
+
+html {
+    scroll-behavior: smooth;
+  }
