@@ -201,11 +201,12 @@
 
     .switch-wrapper {
         
-        position: absolute;
+        position: fixed;
         top: 2.5rem;
         left: 2.5rem;
         opacity: 0;
         animation: 600ms opacity 3000ms forwards;
+        z-index: 1000;
 
     }
 

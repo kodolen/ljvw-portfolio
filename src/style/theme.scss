@@ -61,23 +61,27 @@ button.dark-mode {
 
     background-color: $blue;
     color: white;
+    transition: all .2s ease-in-out;
 
 }
 
 .about-container.dark-mode {
 
     background-color: $complimentary-color-dark;
+    transition: all .2s ease-in-out;
 
 }
 
 .cases-bg {
 
     background-color: white;
+    transition: all .2s ease-in-out;
 
 }
 
 .cases-bg.dark-mode {
 
     background-color: $background-color-dark;
+    transition: all .2s ease-in-out;
 
 }
