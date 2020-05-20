@@ -130,9 +130,16 @@ h3 {
 
 .flat-text {
 
-    font-size: 1.2rem;
-    line-height: 2.2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     font-family: 'light';
+
+    @media (max-width: $mobile) {
+
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+
+    }
 
 }
 

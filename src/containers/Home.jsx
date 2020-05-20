@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import RoundPic from '../assets/cutout-len.png';
-import Github from '../assets/Github.svg';
-import LinkedIN from '../assets/LinkedIN.svg';
-import Mail from '../assets/Mail.svg';
-import Arrow from '../assets/arrow.svg';
+import Github from '../assets/Github.png';
+import LinkedIN from '../assets/LinkedIN.png';
+import Mail from '../assets/Mail.png';
+import Arrow from '../assets/arrow.png';
 import DarkModeToggle from '../components/DarkModeToggle';
 import Tilt from 'react-parallax-tilt';
 
