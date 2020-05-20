@@ -15,18 +15,21 @@ class About extends Component {
                     <div className="row">
                         <div className="col-xs-12 col-md-6 off-md-1">
                             <h2>About me</h2>
-                            <p className="flat-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                            <p className="flat-text">I have graduated as a graphic and interactive designer at the Grafisch Lyceum Rotterdam and currently I’m following the study Creative Media and Game Technologies at the Rotterdam University of applied science. During this study I have worked on different projects in which I have worked with different technologies, frameworks and programming languages. In the past years I've been heavily focusing on front-end development. At this moment I’m in my last year and I’m looking for a graduation internship.
+
+                            I’m also active as a freelance web designer and web developer which has a positive effect on my development as a developer.
+</p>
                         </div>
                         <div className="col-xs-12 col-md-3 off-md-1 content-wrapper">
-                            <h2 className="target">I want to work with</h2>
+                            <h2 className="target">I like to work with</h2>
                             <div className="prog-icon-wrapper">
-                                <i class="devicon-javascript-plain"></i>
-                                <i class="devicon-react-original"></i>
-                                <i class="devicon-sass-original"></i>
-                                <i class="devicon-git-plain"></i>
+                                <i className="devicon-javascript-plain"></i>
+                                <i className="devicon-react-original"></i>
+                                <i className="devicon-sass-original"></i>
+                                <i className="devicon-git-plain"></i>
                             </div>
                             <h2 className="content-wrapper">Other interests</h2>
-                            <p className="flat-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                            <p className="flat-text">I’m a huge fan of playing and watching football. That’s also why I love to play Football Manager and Fifa. I’m also a proud owner of a Playstation 4 and I play games like The Witcher, God of War and Bloodborne. I’m also a big fan of the TV shows Vikings and Dark.</p>
 
                         </div>
                     </div>
